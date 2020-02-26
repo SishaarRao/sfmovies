@@ -7,6 +7,9 @@ env:
 before_script:
   - yarn db:setup:user
   - yarn db:reset
-script:
+services:
+  -postgresql
+  script:
   - yarn test
   - yarn lint
+
