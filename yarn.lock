@@ -648,10 +648,14 @@ create-error@~0.3.1:
   integrity sha1-aYECRaYp5lRDK/BDdzYAA6U1GiM=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 cross-spawn@^5.0.1, cross-spawn@^5.1.0:
 =======
 cross-spawn@^5.0.1:
 >>>>>>> feat(database): created database and JS libraries for interacting with tables
+=======
+cross-spawn@^5.0.1, cross-spawn@^5.1.0:
+>>>>>>> feat(database): added support for migrations and seeding db
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-5.1.0.tgz#e8bd0efee58fcff6f8f94510a0a554bbfa235449"
   integrity sha1-6L0O/uWPz/b4+UUQoKVUu/ojVEk=
@@ -687,10 +691,14 @@ debug@4.1.1:
     ms "^2.1.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 debug@^2.2.0, debug@^2.3.3, debug@^2.6.8:
 =======
 debug@^2.1.1, debug@^2.2.0, debug@^2.3.3, debug@^2.6.8:
 >>>>>>> feat(database): created database and JS libraries for interacting with tables
+=======
+debug@^2.2.0, debug@^2.3.3, debug@^2.6.8:
+>>>>>>> feat(database): added support for migrations and seeding db
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   integrity sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
@@ -877,12 +885,15 @@ esm@^3.2.25:
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 espree@^2.2.4:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/espree/-/espree-2.2.5.tgz#df691b9310889402aeb29cc066708c56690b854b"
   integrity sha1-32kbkxCIlAKuspzAZnCMVmkLhUs=
 >>>>>>> feat(database): created database and JS libraries for interacting with tables
 
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 espree@^3.5.4:
   version "3.5.4"
   resolved "https://registry.yarnpkg.com/espree/-/espree-3.5.4.tgz#b0f447187c8a8bed944b815a660bddf5deb5d1a7"
@@ -933,6 +944,7 @@ execa@^0.7.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
+<<<<<<< HEAD
 expand-brackets@^2.1.4:
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/expand-brackets/-/expand-brackets-2.1.4.tgz#b77735e315ce30f6b6eff0f83b04151a22449622"
@@ -979,6 +991,8 @@ external-editor@^2.0.4:
   resolved "https://registry.yarnpkg.com/external-editor/-/external-editor-2.2.0.tgz#045511cfd8d133f3846673d1047c154e214ad3d5"
   integrity sha512-bSn6gvGxKt+b7+6TKEv1ZycHleA7aHhRHyAqJyp5pbUFuYYNIzpZnQDk7AsYckyWdEnTeAnay0aCy2aV6iTk9A==
 =======
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 expand-brackets@^2.1.4:
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/expand-brackets/-/expand-brackets-2.1.4.tgz#b77735e315ce30f6b6eff0f83b04151a22449622"
@@ -999,6 +1013,7 @@ expand-tilde@^2.0.0, expand-tilde@^2.0.2:
   dependencies:
     homedir-polyfill "^1.0.1"
 
+<<<<<<< HEAD
 ext@^1.1.2:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/ext/-/ext-1.4.0.tgz#89ae7a07158f79d35517882904324077e4379244"
@@ -1039,6 +1054,8 @@ fast-levenshtein@~2.0.6:
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 =======
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 extend-shallow@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/extend-shallow/-/extend-shallow-2.0.1.tgz#51af7d614ad9a9f610ea1bafbb989d6b1c56890f"
@@ -1059,6 +1076,15 @@ extend@^3.0.0:
   resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
   integrity sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
 
+external-editor@^2.0.4:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/external-editor/-/external-editor-2.2.0.tgz#045511cfd8d133f3846673d1047c154e214ad3d5"
+  integrity sha512-bSn6gvGxKt+b7+6TKEv1ZycHleA7aHhRHyAqJyp5pbUFuYYNIzpZnQDk7AsYckyWdEnTeAnay0aCy2aV6iTk9A==
+  dependencies:
+    chardet "^0.4.0"
+    iconv-lite "^0.4.17"
+    tmp "^0.0.33"
+
 extglob@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/extglob/-/extglob-2.0.4.tgz#ad00fe4dc612a9232e8718711dc5cb5ab0285543"
@@ -1073,11 +1099,28 @@ extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+<<<<<<< HEAD
 fast-levenshtein@~1.0.6:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-1.0.7.tgz#0178dcdee023b92905193af0959e8a7639cfdcb9"
   integrity sha1-AXjc3uAjuSkFGTrwlZ6KdjnP3Lk=
 >>>>>>> feat(database): created database and JS libraries for interacting with tables
+=======
+fast-deep-equal@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-1.1.0.tgz#c053477817c86b51daa853c81e059b733d023614"
+  integrity sha1-wFNHeBfIa1HaqFPIHgWbcz0CNhQ=
+
+fast-json-stable-stringify@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz#874bf69c6f404c2b5d99c481341399fd55892633"
+  integrity sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==
+
+fast-levenshtein@~2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
+  integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
+>>>>>>> feat(database): added support for migrations and seeding db
 
 figures@^2.0.0:
   version "2.0.0"
@@ -1273,16 +1316,22 @@ global-prefix@^1.0.1:
     which "^1.2.14"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 globals@^11.0.1:
   version "11.12.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
   integrity sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==
+<<<<<<< HEAD
 =======
 globals@^8.11.0:
   version "8.18.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-8.18.0.tgz#93d4a62bdcac38cfafafc47d6b034768cb0ffcb4"
   integrity sha1-k9SmK9ysOM+vr8R9awNHaMsP/LQ=
 >>>>>>> feat(database): created database and JS libraries for interacting with tables
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 
 globals@^9.18.0:
   version "9.18.0"
@@ -1316,7 +1365,11 @@ growl@1.9.2:
   resolved "https://registry.yarnpkg.com/growl/-/growl-1.9.2.tgz#0ea7743715db8d8de2c5ede1775e1b45ac85c02f"
   integrity sha1-Dqd0NxXbjY3ixe3hd14bRayFwC8=
 
+<<<<<<< HEAD
 handlebars@^4.0.3, handlebars@^4.7.3:
+=======
+handlebars@^4.0.3:
+>>>>>>> feat(database): added support for migrations and seeding db
   version "4.7.3"
   resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.3.tgz#8ece2797826886cf8082d1726ff21d2a022550ee"
   integrity sha512-SRGwSYuNfx8DwHD/6InAPzD6RgeruWLT+B8e8a7gGs8FWgHzlExpTFMEq2IA6QpAfOClpKHy6+8IqTjeBCu6Kg==
@@ -1434,6 +1487,9 @@ homedir-polyfill@^1.0.1:
     parse-passwd "^1.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 iconv-lite@^0.4.17:
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
@@ -1441,8 +1497,11 @@ iconv-lite@^0.4.17:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
+<<<<<<< HEAD
 =======
 >>>>>>> feat(database): created database and JS libraries for interacting with tables
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 ignore-by-default@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/ignore-by-default/-/ignore-by-default-1.0.1.tgz#48ca6d72f6c6a3af00a9ad4ae6876be3889e2b09"
@@ -1679,16 +1738,22 @@ is-plain-object@^2.0.3, is-plain-object@^2.0.4:
     isobject "^3.0.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 is-promise@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/is-promise/-/is-promise-2.1.0.tgz#79a2a9ece7f096e80f36d2b2f3bc16c1ff4bf3fa"
   integrity sha1-eaKp7OfwlugPNtKy87wWwf9L8/o=
+<<<<<<< HEAD
 =======
 is-property@^1.0.0, is-property@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/is-property/-/is-property-1.0.2.tgz#57fe1c4e48474edd65b09911f26b1cd4095dda84"
   integrity sha1-V/4cTkhHTt1lsJkR8msc1Ald2oQ=
 >>>>>>> feat(database): created database and JS libraries for interacting with tables
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 
 is-redirect@^1.0.0:
   version "1.0.0"
@@ -1736,12 +1801,15 @@ is-windows@^1.0.1, is-windows@^1.0.2:
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 isarray@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
   integrity sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8=
 >>>>>>> feat(database): created database and JS libraries for interacting with tables
 
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 isarray@1.0.0, isarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
@@ -1928,6 +1996,7 @@ json-schema-traverse@^0.3.0:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-0.3.1.tgz#349a6d44c53a51de89b40805c5d5e59b417d3340"
   integrity sha1-NJptRMU6Ud6JtAgFxdXlm0F9M0A=
+<<<<<<< HEAD
 
 json-stable-stringify-without-jsonify@^1.0.1:
   version "1.0.1"
@@ -1979,6 +2048,13 @@ knex@^0.20.10:
     tildify "2.0.0"
     uuid "^3.4.0"
     v8flags "^3.1.3"
+=======
+
+json-stable-stringify-without-jsonify@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz#9db7b59496ad3f3cfef30a75142d2d930ad72651"
+  integrity sha1-nbe1lJatPzz+8wp1FC0tkwrXJlE=
+>>>>>>> feat(database): added support for migrations and seeding db
 
 kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0:
   version "3.2.2"
@@ -2034,18 +2110,24 @@ latest-version@^3.0.0:
     package-json "^4.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 levn@^0.3.0, levn@~0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/levn/-/levn-0.3.0.tgz#3b09924edf9f083c0490fdd4c0bc4421e04764ee"
   integrity sha1-OwmSTt+fCDwEkP3UwLxEIeBHZO4=
+<<<<<<< HEAD
 =======
 levn@~0.2.5:
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/levn/-/levn-0.2.5.tgz#ba8d339d0ca4a610e3a3f145b9caf48807155054"
   integrity sha1-uo0znQykphDjo/FFucr0iAcVUFQ=
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
   dependencies:
-    prelude-ls "~1.1.0"
-    type-check "~0.3.1"
+    prelude-ls "~1.1.2"
+    type-check "~0.3.2"
 
 liftoff@3.1.0:
   version "3.1.0"
@@ -2061,6 +2143,7 @@ liftoff@3.1.0:
     rechoir "^0.6.2"
     resolve "^1.1.7"
 
+<<<<<<< HEAD
 lodash._arraycopy@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._arraycopy/-/lodash._arraycopy-3.0.0.tgz#76e7b7c1f1fb92547374878a562ed06a3e50f6e1"
@@ -2253,6 +2336,9 @@ lodash@^3.3.1:
 
 lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4:
 >>>>>>> feat(database): created database and JS libraries for interacting with tables
+=======
+lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.3.0:
+>>>>>>> feat(database): added support for migrations and seeding db
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
@@ -2430,6 +2516,7 @@ mute-stream@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
   integrity sha1-MHXOk7whuPq0PhvE2n6BFe0ee6s=
+<<<<<<< HEAD
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -2452,6 +2539,8 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -2469,6 +2558,11 @@ nanomatch@^1.2.9:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
+
+natural-compare@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
+  integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
 neo-async@^2.6.0:
   version "2.6.1"
@@ -2801,10 +2895,14 @@ postgres-interval@^1.1.0:
     xtend "^4.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 prelude-ls@~1.1.2:
 =======
 prelude-ls@~1.1.0, prelude-ls@~1.1.1, prelude-ls@~1.1.2:
 >>>>>>> feat(database): created database and JS libraries for interacting with tables
+=======
+prelude-ls@~1.1.2:
+>>>>>>> feat(database): added support for migrations and seeding db
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
@@ -2869,6 +2967,7 @@ readdirp@~3.3.0:
   dependencies:
     picomatch "^2.0.7"
 
+<<<<<<< HEAD
 rechoir@^0.6.2:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/rechoir/-/rechoir-0.6.2.tgz#85204b54dba82d5742e28c96756ef43af50e3384"
@@ -2876,6 +2975,8 @@ rechoir@^0.6.2:
   dependencies:
     resolve "^1.1.6"
 
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 rechoir@^0.6.2:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/rechoir/-/rechoir-0.6.2.tgz#85204b54dba82d5742e28c96756ef43af50e3384"
@@ -2897,13 +2998,19 @@ regex-not@^1.0.0, regex-not@^1.0.2:
     safe-regex "^1.1.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 regexpp@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-1.1.0.tgz#0e3516dd0b7904f413d2d4193dce4618c3a689ab"
   integrity sha512-LOPw8FpgdQF9etWMaAfG/WRthIdXJGYp4mJ2Jgn/2lpkbod9jPn0t9UqN7AxBOKNfzRbYyVfgc7Vk4t/MpnXgw==
 
+<<<<<<< HEAD
 =======
 >>>>>>> feat(database): created database and JS libraries for interacting with tables
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 registry-auth-token@^3.0.1:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/registry-auth-token/-/registry-auth-token-3.4.0.tgz#d7446815433f5d5ed6431cd5dca21048f66b397e"
@@ -2937,6 +3044,9 @@ repeating@^2.0.0:
     is-finite "^1.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 require-uncached@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/require-uncached/-/require-uncached-1.0.3.tgz#4e0d56d6c9662fd31e43011c4b95aa49955421d3"
@@ -2945,8 +3055,11 @@ require-uncached@^1.0.3:
     caller-path "^0.1.0"
     resolve-from "^1.0.0"
 
+<<<<<<< HEAD
 =======
 >>>>>>> feat(database): created database and JS libraries for interacting with tables
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 resolve-dir@^1.0.0, resolve-dir@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/resolve-dir/-/resolve-dir-1.0.1.tgz#79a40644c362be82f26effe739c9bb5382046f43"
@@ -2956,8 +3069,16 @@ resolve-dir@^1.0.0, resolve-dir@^1.0.1:
     global-modules "^1.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 resolve-from@^1.0.0:
 =======
+=======
+resolve-from@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-1.0.1.tgz#26cbfe935d1aeeeabb29bc3fe5aeb01e93d44226"
+  integrity sha1-Jsv+k10a7uq7Kbw/5a6wHpPUQiY=
+
+>>>>>>> feat(database): added support for migrations and seeding db
 resolve-url@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
@@ -2970,6 +3091,7 @@ resolve@^1.1.6, resolve@^1.1.7:
   dependencies:
     path-parse "^1.0.6"
 
+<<<<<<< HEAD
 restore-cursor@^1.0.1:
 >>>>>>> feat(database): created database and JS libraries for interacting with tables
   version "1.0.1"
@@ -2988,6 +3110,8 @@ resolve@^1.1.6, resolve@^1.1.7:
   dependencies:
     path-parse "^1.0.6"
 
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 restore-cursor@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/restore-cursor/-/restore-cursor-2.0.0.tgz#9f7ee287f82fd326d4fd162923d62129eee0dfaf"
@@ -2995,11 +3119,14 @@ restore-cursor@^2.0.0:
   dependencies:
     onetime "^2.0.0"
     signal-exit "^3.0.2"
+<<<<<<< HEAD
 
 ret@~0.1.10:
   version "0.1.15"
   resolved "https://registry.yarnpkg.com/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
   integrity sha512-TTlYpa+OL+vMMNG24xSlQGEJ3B/RzEfUlLct7b5G/ytav+wPrplCpVMFuwzXbkecJrb6IYo1iFb0S9v37754mg==
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 
 ret@~0.1.10:
   version "0.1.15"
@@ -3057,13 +3184,19 @@ safe-regex@^1.1.0:
     ret "~0.1.10"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 "safer-buffer@>= 2.1.2 < 3":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
+<<<<<<< HEAD
 =======
 >>>>>>> feat(database): created database and JS libraries for interacting with tables
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 semver-diff@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/semver-diff/-/semver-diff-2.1.0.tgz#4bbb8437c8d37e4b0cf1a68fd726ec6d645d6d36"
@@ -3122,6 +3255,9 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 slice-ansi@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/slice-ansi/-/slice-ansi-1.0.0.tgz#044f1a49d8842ff307aad6b505ed178bd950134d"
@@ -3129,8 +3265,11 @@ slice-ansi@1.0.0:
   dependencies:
     is-fullwidth-code-point "^2.0.0"
 
+<<<<<<< HEAD
 =======
 >>>>>>> feat(database): created database and JS libraries for interacting with tables
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 snapdragon-node@^2.0.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/snapdragon-node/-/snapdragon-node-2.1.1.tgz#6c175f86ff14bdb0724563e8f3c1b021a286853b"
@@ -3229,6 +3368,7 @@ static-extend@^0.1.1:
     define-property "^0.2.5"
     object-copy "^0.1.0"
 
+<<<<<<< HEAD
 string-width@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-1.0.2.tgz#118bdf5b8cdc51a2a7e70d211e07e2b0b9b107d3"
@@ -3238,6 +3378,8 @@ string-width@^1.0.1:
     define-property "^0.2.5"
     object-copy "^0.1.0"
 
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 string-width@^2.0.0, string-width@^2.1.0, string-width@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-2.1.1.tgz#ab93f27a8dc13d28cac815c462143a6d9012ae9e"
@@ -3321,6 +3463,9 @@ supports-color@^5.3.0, supports-color@^5.5.0:
     has-flag "^3.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 table@4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/table/-/table-4.0.2.tgz#a33447375391e766ad34d3486e6e2aedc84d2e36"
@@ -3333,8 +3478,11 @@ table@4.0.2:
     slice-ansi "1.0.0"
     string-width "^2.1.1"
 
+<<<<<<< HEAD
 =======
 >>>>>>> feat(database): created database and JS libraries for interacting with tables
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 tarn@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/tarn/-/tarn-2.0.0.tgz#c68499f69881f99ae955b4317ca7d212d942fdee"
@@ -3542,6 +3690,7 @@ use@^3.1.0:
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 user-home@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/user-home/-/user-home-2.0.0.tgz#9c70bfd8169bc1dcbf48604e0f04b8b49cde9e9f"
@@ -3550,6 +3699,8 @@ user-home@^2.0.0:
     os-homedir "^1.0.0"
 >>>>>>> feat(database): created database and JS libraries for interacting with tables
 
+=======
+>>>>>>> feat(database): added support for migrations and seeding db
 util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
