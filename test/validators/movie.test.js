@@ -5,8 +5,9 @@ const Joi = require('joi');
 const MovieValidator = require('../../lib/validators/movie');
 
 describe('movie validator', () => {
+
   describe('title', () => {
-    
+
     it('is required', () => {
       const payload = {};
       const result = Joi.validate(payload, MovieValidator);
@@ -26,14 +27,14 @@ describe('movie validator', () => {
   });
 
   describe('release_year', () => {
-    
+
     it('is after 1878', () => {
       const payload = {
         title: 'foo',
         release_year: 1800
       };
       const result = Joi.validate(payload, MovieValidator);
-      
+
       expect(result.error.details[0].path[0]).to.eql('release_year');
       expect(result.error.details[0].type).to.eql('number.min');
     });
@@ -50,4 +51,5 @@ describe('movie validator', () => {
     });
 
   });
+
 });
