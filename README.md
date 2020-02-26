@@ -1,2 +1,2 @@
 # sfmovies
-API for movies shot in San Francisco
+RESTful API for movies shot in San Francisco
