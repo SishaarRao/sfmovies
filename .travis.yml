@@ -19,7 +19,7 @@ script:
   - yarn enforce
 =======
 services:
-  -postgresql
+  - postgresql
   script:
   - yarn test
   - yarn lint
