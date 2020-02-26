@@ -8,7 +8,7 @@ before_script:
   - yarn db:setup:user
   - yarn db:reset
 services:
-  -postgresql
+  - postgresql
   script:
   - yarn test
   - yarn lint
