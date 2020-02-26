@@ -12,7 +12,16 @@ services:
 before_script:
   - yarn db:setup:user
   - yarn db:reset
+<<<<<<< HEAD
 script:
   - yarn lint
   - yarn test
   - yarn enforce
+=======
+services:
+  -postgresql
+  script:
+  - yarn test
+  - yarn lint
+
+>>>>>>> fix(database): postgresql was not getting started in travis
