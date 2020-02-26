@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "bookshelf": "^1.1.0",
+    "handlebars": "^4.7.3",
     "hapi": "16.6.1",
     "hapi-bookshelf-serializer": "2.1.0",
     "knex": "^0.20.10",
