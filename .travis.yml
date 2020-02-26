@@ -4,24 +4,11 @@ node_js:
   - 8.11.3
 env:
   - NODE_ENV="test"
-<<<<<<< HEAD
 services:
   - postgresql
-=======
->>>>>>> feat(config): add migration scripts
 before_script:
   - yarn db:setup:user
   - yarn db:reset
-<<<<<<< HEAD
 script:
-  - yarn lint
-  - yarn test
-  - yarn enforce
-=======
-services:
-  - postgresql
-  script:
   - yarn test
   - yarn lint
-
->>>>>>> fix(database): postgresql was not getting started in travis
