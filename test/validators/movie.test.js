@@ -17,7 +17,7 @@ describe('movie validator', () => {
     });
 
     it('cannot be with name', () => {
-      const payload = { title: 'testerror', name: 'testerror'};
+      const payload = { title: 'testerror', name: 'testerror' };
       const result = Joi.validate(payload, MovieValidator);
 
       expect(result.error.details[0].type).to.eql('object.xor');
@@ -36,7 +36,7 @@ describe('movie validator', () => {
     });
 
     it('cannot be with title', () => {
-      const payload = { name: 'testerror', title: 'testerror'};
+      const payload = { name: 'testerror', title: 'testerror' };
       const result = Joi.validate(payload, MovieValidator);
 
       expect(result.error.details[0].type).to.eql('object.xor');
