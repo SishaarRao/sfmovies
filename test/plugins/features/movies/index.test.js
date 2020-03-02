@@ -13,6 +13,7 @@ describe('movies integration', () => {
         payload: { name: 'Volver' }
       })
       .then((response) => {
+        
         expect(response.statusCode).to.eql(422);
         expect(response.result.object).to.eql('movie');
       });
