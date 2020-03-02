@@ -16,4 +16,17 @@ describe('movie controller', () => {
 
   });
 
+  describe('retrieve', () => {
+
+    it('retrieves a movie by name', async () => {
+      const payload = { name: 'Alcatraz' };
+
+      const movie = await Controller.retrieve(payload)
+
+      expect (movie.get('name')).to.eql(payload.name);
+      expect (movie.get(''))
+    });
+
+  });
+
 });
