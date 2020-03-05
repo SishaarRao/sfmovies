@@ -30,11 +30,14 @@
     "db:rollback": "knex migrate:rollback --knexfile db/index.js",
     "db:setup": "if [ \"$NODE_ENV\" != \"production\" ]; then createdb -O $(node -e \"var c = require('./config'); console.log(c.DB_USER, c.DB_NAME);\"); fi",
     "db:setup:user": "if [ \"$NODE_ENV\" != \"production\" ]; then createuser $(node -p \"require('./config').DB_USER\"); fi",
-    "db:seed": "yarn db:reset && knex seed:run --knexfile db/index.js"
+    "db:seed": "yarn db:reset && knex seed:run --knexfile db/index.js",
+    "db:seed:test": "NODE_ENV=test yarn db:seed",
+		"db:reset:test": "NODE_ENV=test yarn db:reset",
+		"db:setup:test": "NODE_ENV=test yarn db:setup"
   },
   "dependencies": {
     "bookshelf": "^1.1.0",
-    "handlebars": "^4.7.3",
+    "handlebars": "^4.5.3",
     "hapi": "16.6.1",
     "hapi-bookshelf-serializer": "2.1.0",
     "hapi-format-error": "2.1.0",
