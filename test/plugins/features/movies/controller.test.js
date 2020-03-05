@@ -24,7 +24,7 @@ describe('movie controller', () => {
       const movie = await Controller.retrieve(payload)
 
       expect (movie.get('name')).to.eql(payload.name);
-      expect (movie.get(''))
+      // expect (movie.get(''))
     });
 
   });
