@@ -16,7 +16,7 @@ describe('movie validator', () => {
       expect(result.error.details[0].type).to.eql('string.max');
     });
 
-    it('cannot be with name', () => {
+    it('cannot be with name if title is used as the parameter', () => {
       const payload = { title: 'testerror', name: 'testerror' };
       const result = Joi.validate(payload, MovieValidator);
 
@@ -35,7 +35,7 @@ describe('movie validator', () => {
       expect(result.error.details[0].type).to.eql('string.max');
     });
 
-    it('cannot be with title', () => {
+    it('cannot be with title if name is used as the parameter', () => {
       const payload = { name: 'testerror', title: 'testerror' };
       const result = Joi.validate(payload, MovieValidator);
 
