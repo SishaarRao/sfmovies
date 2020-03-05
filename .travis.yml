@@ -9,6 +9,7 @@ services:
 before_script:
   - yarn db:setup:user
   - yarn db:reset
+  - yarn db:seed
 script:
   - yarn test
   - yarn enforce
