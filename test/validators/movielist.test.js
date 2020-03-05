@@ -5,7 +5,7 @@ const Joi = require('joi');
 const MovieListValidator = require('../../lib/validators/movielist');
 
 describe('movie list validator', () => {
-  
+
   describe('release_year', () => {
 
     it('is after 1878', () => {
@@ -38,7 +38,7 @@ describe('movie list validator', () => {
       expect(result.error.details[0].path[0]).to.eql('release_year');
     });
 
-    it ('cannot be with end_year', () => {
+    it('cannot be with end_year', () => {
       const payload = {
         release_year: 1990,
         end_year: 1995
@@ -51,7 +51,7 @@ describe('movie list validator', () => {
   });
 
   describe('start_year', () => {
-    
+
     it('is after 1878', () => {
       const payload = {
         start_year: 1800
@@ -85,7 +85,7 @@ describe('movie list validator', () => {
   });
 
   describe('end_year', () => {
-    
+
     it('is after 1878', () => {
       const payload = {
         end_year: 1800
@@ -119,7 +119,7 @@ describe('movie list validator', () => {
   });
 
   describe('name', () => {
-    
+
     it('is less than 255 characters', () => {
       const payload = { name: 'a'.repeat(260) };
       const result = Joi.validate(payload, MovieListValidator);
@@ -140,4 +140,5 @@ describe('movie list validator', () => {
     });
 
   });
+
 });

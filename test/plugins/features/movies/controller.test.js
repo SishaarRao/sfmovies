@@ -23,19 +23,19 @@ describe('movie controller', () => {
 
       const movie = await Controller.retrieve(payload);
 
-      for (var i = 0; i < movie.length; i++) {
-        expect (movie[i]['name']).to.eql(payload.name);
+      for (let i = 0; i < movie.length; i++) {
+        expect(movie[i].name).to.eql(payload.name);
       }
     });
 
     it('retrieves a list of movies by a fuzzy name', async () => {
-      const payload = { name: 'Alcatraz', similar: "true" };
+      const payload = { name: 'Alcatraz', similar: 'true' };
 
       const movie = await Controller.retrieve(payload);
 
       expect(movie.length).to.eql(3);
-      for (var i = 0; i < movie.length; i++) {
-        expect (movie[i]['name']).to.include(payload.name);
+      for (let i = 0; i < movie.length; i++) {
+        expect(movie[i].name).to.include(payload.name);
       }
     });
 
@@ -45,8 +45,8 @@ describe('movie controller', () => {
       const movie = await Controller.retrieve(payload);
 
       expect(movie.length).to.eql(5);
-      for (var i = 0; i < movie.length; i++) {
-        expect (movie[i]['release_year']).to.eql(payload.release_year);
+      for (let i = 0; i < movie.length; i++) {
+        expect(movie[i].release_year).to.eql(payload.release_year);
       }
     });
 
@@ -56,9 +56,9 @@ describe('movie controller', () => {
       const movie = await Controller.retrieve(payload);
 
       expect(movie.length).to.eql(30);
-      for (var i = 0; i < movie.length; i++) {
-        expect (movie[i]['release_year']).to.be.at.least(payload.start_year);
-        expect (movie[i]['release_year']).to.be.at.most(payload.end_year);
+      for (let i = 0; i < movie.length; i++) {
+        expect(movie[i].release_year).to.be.at.least(payload.start_year);
+        expect(movie[i].release_year).to.be.at.most(payload.end_year);
       }
     });
 

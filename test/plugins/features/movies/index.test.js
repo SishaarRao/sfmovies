@@ -25,7 +25,7 @@ describe('movies integration', () => {
     it('retrieves a list of movies', () => {
       return Movies.inject({
         url: '/movies?release_year=1970',
-        method: 'GET',
+        method: 'GET'
       })
       .then((response) => {
         expect(response.statusCode).to.eql(200);
