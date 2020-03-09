@@ -2,7 +2,7 @@
 
 const TABLE = 'movies';
 const COLUMN_NAME = 'locations';
-const DEFAULT_LOCATION = 'San Francisco';
+// const DEFAULT_LOCATION = 'San Francisco';
 
 exports.up = async (knex) => {
   await knex.schema.table(TABLE, (table) => {
