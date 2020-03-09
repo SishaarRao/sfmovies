@@ -24,7 +24,7 @@ describe('movie controller', () => {
       const movie = await Controller.retrieve(payload);
 
       for (let i = 0; i < movie.length; i++) {
-        expect(movie[i].name).to.eql(payload.name);
+        expect(movie[i].attributes.name).to.eql(payload.name);
       }
     });
 
@@ -35,7 +35,7 @@ describe('movie controller', () => {
 
       expect(movie.length).to.eql(3);
       for (let i = 0; i < movie.length; i++) {
-        expect(movie[i].name).to.include(payload.name);
+        expect(movie[i].attributes.name).to.include(payload.name);
       }
     });
 
@@ -46,7 +46,7 @@ describe('movie controller', () => {
 
       expect(movie.length).to.eql(5);
       for (let i = 0; i < movie.length; i++) {
-        expect(movie[i].release_year).to.eql(payload.release_year);
+        expect(movie[i].attributes.release_year).to.eql(payload.release_year);
       }
     });
 
@@ -57,8 +57,8 @@ describe('movie controller', () => {
 
       expect(movie.length).to.eql(30);
       for (let i = 0; i < movie.length; i++) {
-        expect(movie[i].release_year).to.be.at.least(payload.start_year);
-        expect(movie[i].release_year).to.be.at.most(payload.end_year);
+        expect(movie[i].attributes.release_year).to.be.at.least(payload.start_year);
+        expect(movie[i].attributes.release_year).to.be.at.most(payload.end_year);
       }
     });
 
