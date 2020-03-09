@@ -73,11 +73,11 @@ describe('movie controller', () => {
     });
 
   });
-  
+
   describe('addLocation', () => {
 
     it('adds a location given an id and a valid location', async () => {
-      const payload = { location: "Ashburn" };
+      const payload = { location: 'Ashburn' };
       const id = 13;
 
       const movie = await Controller.addLocation(id, payload);
@@ -88,6 +88,6 @@ describe('movie controller', () => {
       expect(movie.attributes.locations).to.include('Ashburn');
     });
 
-  })
+  });
 
 });
