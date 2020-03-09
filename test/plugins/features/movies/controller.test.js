@@ -62,6 +62,32 @@ describe('movie controller', () => {
       }
     });
 
+    it('retrieves a list of locations for a movie', async () => {
+      const payload = { name: 'Alcatraz' };
+
+      const movie = await Controller.retrieve(payload);
+
+      for (let i = 0; i < movie.length; i++) {
+        expect(movie[i].attributes.locations).to.include('San Francisco');
+      }
+    });
+
   });
+  
+  describe('addLocation', () => {
+
+    it('adds a location given an id and a valid location', async () => {
+      const payload = { location: "Ashburn" };
+      const id = 13;
+
+      const movie = await Controller.addLocation(id, payload);
+
+      expect(movie.attributes.name).to.be.eql('Alcatraz');
+      expect(movie.attributes.locations.length).to.be.eql(2);
+      expect(movie.attributes.locations).to.include('San Francisco');
+      expect(movie.attributes.locations).to.include('Ashburn');
+    });
+
+  })
 
 });
