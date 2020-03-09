@@ -11,6 +11,6 @@ before_script:
   - yarn db:reset
   - yarn db:seed
 script:
+  - yarn lint
   - yarn test
   - yarn enforce
-  - yarn lint
