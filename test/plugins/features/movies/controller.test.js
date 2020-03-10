@@ -21,54 +21,54 @@ describe('movie controller', () => {
     it('retrieves a list of movies by name', async () => {
       const payload = { name: 'Alcatraz' };
 
-      const movie = await Controller.retrieve(payload);
+      const movies = await Controller.retrieve(payload);
 
-      for (let i = 0; i < movie.length; i++) {
-        expect(movie[i].attributes.name).to.eql(payload.name);
+      for (const movie of movies) {
+        expect(movie.attributes.name).to.eql(payload.name);
       }
     });
 
     it('retrieves a list of movies by a fuzzy name', async () => {
       const payload = { name: 'Alcatraz', similar: 'true' };
 
-      const movie = await Controller.retrieve(payload);
+      const movies = await Controller.retrieve(payload);
 
-      expect(movie.length).to.eql(3);
-      for (let i = 0; i < movie.length; i++) {
-        expect(movie[i].attributes.name).to.include(payload.name);
+      expect(movies.length).to.eql(3);
+      for (const movie of movies) {
+        expect(movie.attributes.name).to.include(payload.name);
       }
     });
 
     it('retrieves a list of movies by release_year', async () => {
       const payload = { release_year: 1980 };
 
-      const movie = await Controller.retrieve(payload);
+      const movies = await Controller.retrieve(payload);
 
-      expect(movie.length).to.eql(5);
-      for (let i = 0; i < movie.length; i++) {
-        expect(movie[i].attributes.release_year).to.eql(payload.release_year);
+      expect(movies.length).to.eql(5);
+      for (const movie of movies) {
+        expect(movie.attributes.release_year).to.eql(payload.release_year);
       }
     });
 
     it('retrieves a list of movies by range of years', async () => {
       const payload = { start_year: 1970, end_year: 1980 };
 
-      const movie = await Controller.retrieve(payload);
+      const movies = await Controller.retrieve(payload);
 
-      expect(movie.length).to.eql(30);
-      for (let i = 0; i < movie.length; i++) {
-        expect(movie[i].attributes.release_year).to.be.at.least(payload.start_year);
-        expect(movie[i].attributes.release_year).to.be.at.most(payload.end_year);
+      expect(movies.length).to.eql(30);
+      for (const movie of movies) {
+        expect(movie.attributes.release_year).to.be.at.least(payload.start_year);
+        expect(movie.attributes.release_year).to.be.at.most(payload.end_year);
       }
     });
 
     it('retrieves a list of locations for a movie', async () => {
       const payload = { name: 'Alcatraz' };
 
-      const movie = await Controller.retrieve(payload);
+      const movies = await Controller.retrieve(payload);
 
-      for (let i = 0; i < movie.length; i++) {
-        expect(movie[i].attributes.locations).to.include('San Francisco');
+      for (const movie of movies) {
+        expect(movie.attributes.locations).to.include('San Francisco');
       }
     });
 
