@@ -78,14 +78,22 @@ describe('movie controller', () => {
 
     it('adds a location given an id and a valid location', async () => {
       const payload = { location: 'Ashburn' };
-      const id = 13;
+      const id = 1;
 
       const movie = await Controller.addLocation(id, payload);
 
-      expect(movie.attributes.name).to.be.eql('Alcatraz');
       expect(movie.attributes.locations.length).to.be.eql(2);
       expect(movie.attributes.locations).to.include('San Francisco');
       expect(movie.attributes.locations).to.include('Ashburn');
+
+      const index = movie.attributes.locations.indexOf('Ashburn');
+      if (index > -1) {
+        movie.attributes.locations.splice(index, 1);
+      }
+      movie.save();
+      expect(movie.attributes.locations.length).to.be.eql(1);
+      expect(movie.attributes.locations).to.include('San Francisco');
+      expect(movie.attributes.locations).to.not.include('Ashburn');
     });
 
   });
