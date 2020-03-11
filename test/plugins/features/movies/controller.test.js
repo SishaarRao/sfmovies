@@ -96,6 +96,16 @@ describe('movie controller', () => {
       expect(movie.attributes.locations).to.not.include('Ashburn');
     });
 
+    it('doesn\'t add the same location twice', async () => {
+      const payload = { location: 'San Francisco' };
+      const id = 1;
+
+      const movie = await Controller.addLocation(id, payload);
+
+      expect(movie.attributes.locations.length).to.be.eql(1);
+      expect(movie.attributes.locations).to.include('San Francisco');
+    });
+
   });
 
 });
