@@ -34,4 +34,19 @@ describe('movies integration', () => {
 
   });
 
+  describe('addLocation', () => {
+
+    it('adds a location to a movie\'s list of locations', () => {
+      return Movies.inject({
+        url: '/movies/13/locations',
+        method: 'POST',
+        payload: { location: 'Ashburn' }
+      })
+      .then((response) => {
+        expect(response.statusCode).to.eql(200);
+      });
+    });
+
+  });
+
 });
